@@ -20,7 +20,7 @@ getNewsAjax('https://newsapi.org/v1/sources', (res) => {
 });
 
 
-// using fetch Api 
+// using ES6 fetch Api 
 
 function getNewsFetch(url) {
     return new Promise((res, rej) => {
